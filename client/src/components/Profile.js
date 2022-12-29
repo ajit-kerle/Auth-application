@@ -33,10 +33,8 @@ function Profile() {
     <>
     <div style={{display:"flex",flexDirection:"column",alignItems:"center",marginTop:"20px"}}>
         <h1>Welcome {logindata ? logindata.userData.username : ""} to Code instance Army</h1><br/><br/>
-        <h1>Username : {logindata ? logindata.userData.username : "" }
-        </h1>
-        <h1>Email : {logindata ? logindata.userData.email : "" }
-        </h1>
+        <h1>Username : {logindata ? logindata.userData.username : "" }</h1>
+        <h1>Email : {logindata ? logindata.userData.email : "" }</h1>
     </div>
     </>
   )
