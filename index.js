@@ -4,6 +4,7 @@ import router from './routes/router.js';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import path from "path";
+const __dirname=path.resolve();
 
 const app=express()
 
