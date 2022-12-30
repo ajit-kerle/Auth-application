@@ -29,6 +29,6 @@ connection()
 
 // server 
 const port=8000
-app.listen(port,()=>{
+app.listen(port||8080,()=>{
     console.log(`server start at port no :${port}`)
 })
